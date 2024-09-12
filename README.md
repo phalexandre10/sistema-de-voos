@@ -17,16 +17,15 @@ O código apresentado implementa um sistema de reservas de voos utilizando C# e 
 
 
 
-## Layout swagger
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+## Layout no Swagger
+![Modelo Conceitual](https://github.com/phalexandre10/sistema-de-voos/blob/main/fotos/Captura%20de%20tela%202024-09-12%20172521.png)
 
-## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
 
-## Digrama de caso de uso
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+## Edpoints da API
+![Web 1](https://github.com/phalexandre10/sistema-de-voos/blob/main/fotos/Captura%20de%20tela%202024-09-12%20172402.png)
+
+![Web 2]()
 
 ## Estrutura do Projeto
 
@@ -75,6 +74,7 @@ Certifique-se de ter as seguintes extensões instaladas no seu projeto:
 
 # Autor
 
-Wellington Mazoni de Andrade
-
-https://www.linkedin.com/in/wmazoni
+Pedro Henrique
+Lucyo 
+Rafael
+Gabriel Martins

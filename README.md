@@ -1,4 +1,4 @@
-# Big Game Survey 
+# Sistema de Reservas e Voos
 
 
 # Sobre o projeto
@@ -28,55 +28,50 @@ O código apresentado implementa um sistema de reservas de voos utilizando C# e 
 ## Digrama de caso de uso
 ![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
 
+## Estrutura do Projeto
+
+- `Program.cs`: Configuração da aplicação e serviços
+- `EndpointExtensions.cs`: Definição dos endpoints da API
+- `ServicoPassageiro.cs`: Lógica de negócio para passageiros
+- `ServicoVoo.cs`: Lógica de negócio para voos e reservas
+- `ServicoCheckIn.cs`: Lógica de negócio para check-in
+- `ServicoRelatorio.cs`: Geração de relatórios
+- `CancelamentoReservasBackgroundService.cs`: Serviço em segundo plano para cancelar reservas não confirmadas
+
 # Tecnologias utilizadas
-## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
-## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
 
-# Como executar o projeto
+- ASP.NET Core 8.0
+- Entity Framework Core
+- Swagger / OpenAPI
+- SQL Server (pode ser alterado para outro banco suportado pelo EF Core)
 
-## Back end
-Pré-requisitos: Java 11
 
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+#Como executar o projeto
 
-# entrar na pasta do projeto back end
-cd backend
+## Configuração
 
-# executar o projeto
-./mvnw spring-boot:run
-```
+1. Clone o repositório
+2. Instale o .NET 8.0
+3. Instalar as Extensões
+4. Configure a string de conexão do banco de dados no `appsettings.json`:
+json
+{
+"ConnectionStrings": {
+"DefaultConnection": "Server=seu_servidor;Database=SistemaReservas;User Id=seu_usuario;Password=sua_senha;"
+}
+}
+5. Execute as migrações do banco de dados:
+Add-Migration
+## Extensões Necessárias
 
-## Front end web
-Pré-requisitos: npm / yarn
+Certifique-se de ter as seguintes extensões instaladas no seu projeto:
 
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+- Microsoft.EntityFrameworkCore
+- Microsoft.EntityFrameworkCore.SqlServer
+- Microsoft.EntityFrameworkCore.Design
+- Swashbuckle.AspNetCore
 
-# entrar na pasta do projeto front end web
-cd front-web
 
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
 
 # Autor
 

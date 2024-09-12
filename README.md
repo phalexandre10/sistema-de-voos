@@ -25,8 +25,6 @@ O código apresentado implementa um sistema de reservas de voos utilizando C# e 
 ## Edpoints da API
 ![Web 1](https://github.com/phalexandre10/sistema-de-voos/blob/main/fotos/Captura%20de%20tela%202024-09-12%20172402.png)
 
-![Web 2]()
-
 ## Estrutura do Projeto
 
 - `Program.cs`: Configuração da aplicação e serviços
@@ -74,7 +72,8 @@ Certifique-se de ter as seguintes extensões instaladas no seu projeto:
 
 # Autor
 
-Pedro Henrique
-Lucyo 
-Rafael
-Gabriel Martins
+ - Pedro Henrique
+ - Lucyo 
+ - Rafael
+ - Gabriel Martins
+-  Patrick

@@ -1,7 +1,0 @@
-C:\Users\Usuario\source\repos\ReservaPassagens\ReservaPassagens\obj\Debug\net8.0\ReservaPassagens.csproj.AssemblyReference.cache
-C:\Users\Usuario\source\repos\ReservaPassagens\ReservaPassagens\obj\Debug\net8.0\ReservaPassagens.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Usuario\source\repos\ReservaPassagens\ReservaPassagens\obj\Debug\net8.0\ReservaPassagens.AssemblyInfoInputs.cache
-C:\Users\Usuario\source\repos\ReservaPassagens\ReservaPassagens\obj\Debug\net8.0\ReservaPassagens.AssemblyInfo.cs
-C:\Users\Usuario\source\repos\ReservaPassagens\ReservaPassagens\obj\Debug\net8.0\ReservaPassagens.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\source\repos\ReservaPassagens\ReservaPassagens\obj\Debug\net8.0\ReservaPassagens.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Usuario\source\repos\ReservaPassagens\ReservaPassagens\obj\Debug\net8.0\ReservaPassagens.MvcApplicationPartsAssemblyInfo.cache
